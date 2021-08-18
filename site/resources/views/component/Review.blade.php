@@ -4,6 +4,7 @@
 
 
 <div class="container section-marginTop text-center">
+    <h1 class="section-title">Client Reviews</h1>
     <div class="row d-flex justify-content-center">
             <div class="col-md-6 text-center">
                 <div id="two" class="owl-carousel mb-4 owl-theme">

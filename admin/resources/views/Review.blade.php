@@ -4,7 +4,7 @@
 <div id="maindivReview" class="container d-none">
     <div class="row">
     <div class="col-md-12 p-3">
-      <button id="AddNewReviewBtnID" class="btn my-4 btn-sm btn-danger">Add New Review</button>
+      <button id="AddNewReviewBtnID" class="normal-btn">Add New Review</button>
     <table id="ReviewTableID" class="table table-striped table-bordered" cellspacing="0" width="100%">
       <thead>
         <tr>
@@ -70,8 +70,8 @@
        </div>
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-sm btn-primary" data-dismiss="modal">Cancel</button>
-        <button  id="ReviewAddConfirmBtn" type="button" class="btn  btn-sm  btn-danger">Save</button>
+        <button type="button" class="normal-btn-cancel" data-dismiss="modal">Cancel</button>
+        <button  id="ReviewAddConfirmBtn" type="button" class="normal-btn">Save</button>
       </div>
     </div>
   </div>
@@ -92,10 +92,10 @@
           <h5 id="ReviewDeleteID" class=""> </h5>
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-sm btn-primary" data-dismiss="modal">
+        <button type="button" class="normal-btn-cancel" data-dismiss="modal">
           No
         </button>
-        <button type="button" data-id="" id="Reviewdeleteconfirm" class="btn btn-sm btn-danger">Yes</button>
+        <button type="button" data-id="" id="Reviewdeleteconfirm" class="normal-btn">Yes</button>
       </div>
     </div>
   </div>
@@ -129,8 +129,8 @@ aria-hidden="true">
 
     </div>
     <div class="modal-footer">
-      <button type="button" class="btn btn-sm btn-primary" data-dismiss="modal">Cancel</button>
-      <button  id="ReviewEditConfirmBtn" type="button" class="btn  btn-sm  btn-danger">Save</button>
+      <button type="button" class="normal-btn-cancel" data-dismiss="modal">Cancel</button>
+      <button  id="ReviewEditConfirmBtn" type="button" class="normal-btn">Save</button>
     </div>
   </div>
 </div>

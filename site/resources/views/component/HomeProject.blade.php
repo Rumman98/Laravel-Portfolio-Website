@@ -2,9 +2,9 @@
     <h1 class="section-title">PROJECTS</h1>
     <h1 class="section-subtitle">We provide all kind of roject services</h1>
     <div class="row">
+    
 
-        <div id="one"  class="owl-carousel mb-4 owl-theme">
-
+        <div id="one" class="owl-carousel mb-4 owl-theme">
             @foreach ($ProjectData as $ProjectData)
             <div class="item m-1 card">
                 <div class="text-center">
@@ -15,8 +15,8 @@
                 </div>
             </div> 
             @endforeach
-            
         </div>
+ 
     </div>
     <div class="d-inline ml-2">
         <i id="customPrevBtn" class="btn normal-btn"><</i>

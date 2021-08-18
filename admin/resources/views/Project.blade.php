@@ -4,7 +4,7 @@
 <div id="maindivProject" class="container d-none">
     <div class="row">
     <div class="col-md-12 p-3">
-      <button id="AddNewProjectBtnID" class="btn my-4 btn-sm btn-danger">Add New Project</button>
+      <button id="AddNewProjectBtnID" class="normal-btn">Add New Project</button>
     <table id="ProjectTableID" class="table table-striped table-bordered" cellspacing="0" width="100%">
       <thead>
         <tr>
@@ -71,8 +71,8 @@
        </div>
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-sm btn-primary" data-dismiss="modal">Cancel</button>
-        <button  id="ProjectAddConfirmBtn" type="button" class="btn  btn-sm  btn-danger">Save</button>
+        <button type="button" class="normal-btn-cancel" data-dismiss="modal">Cancel</button>
+        <button  id="ProjectAddConfirmBtn" type="button" class="normal-btn">Save</button>
       </div>
     </div>
   </div>
@@ -93,10 +93,10 @@
           <h5 id="ProjectDeleteID" class=""></h5>
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-sm btn-primary" data-dismiss="modal">
+        <button type="button" class="normal-btn-cancel" data-dismiss="modal">
           No
         </button>
-        <button type="button" data-id="" id="Projectdeleteconfirm" class="btn btn-sm btn-danger">Yes</button>
+        <button type="button" data-id="" id="Projectdeleteconfirm" class="normal-btn">Yes</button>
       </div>
     </div>
   </div>
@@ -131,8 +131,8 @@ aria-hidden="true">
 
     </div>
     <div class="modal-footer">
-      <button type="button" class="btn btn-sm btn-primary" data-dismiss="modal">Cancel</button>
-      <button  id="ProjectEditConfirmBtn" type="button" class="btn  btn-sm  btn-danger">Save</button>
+      <button type="button" class="normal-btn-cancel" data-dismiss="modal">Cancel</button>
+      <button  id="ProjectEditConfirmBtn" type="button" class="normal-btn">Save</button>
     </div>
   </div>
 </div>

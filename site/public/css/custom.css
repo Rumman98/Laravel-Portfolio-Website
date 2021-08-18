@@ -26,6 +26,7 @@
     color: white!important;
     font-family: 'Hind Siliguri', sans-serif!important;
     font-weight: 400!important;
+    border: 1px solid  #ffffff;
 }
 
 .normal-btn:hover{
@@ -40,7 +41,7 @@
     color:  #FCA311! important;
     font-family: 'Hind Siliguri', sans-serif!important;
     font-weight: 400!important;
-    border: 0.5px solid  #FCA311! important;
+    border: 0.5px solid  #c0bfbc! important;
 }
 
 .normal-btn-outline:hover{
@@ -118,9 +119,10 @@
     position: relative;
     width: 100% !important;
     height: auto;
-    padding: 0px !important;
+    padding: 0.5px !important;
     margin: 0px !important;
     background-color: #FCA311;
+   
 }
 .thumbnail-image {
     opacity: 1;
@@ -131,6 +133,7 @@
     height: auto;
     transition: .5s ease;
     backface-visibility: hidden;
+
 }
 .thumbnail-middle {
     transition: .5s ease;

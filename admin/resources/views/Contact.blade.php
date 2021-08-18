@@ -57,10 +57,10 @@
           <h5 id="ContactDeleteID" class="d-none"></h5>
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-sm btn-primary" data-dismiss="modal">
+        <button type="button" class="normal-btn-cancel" data-dismiss="modal">
           No
         </button>
-        <button type="button" data-id="" id="Contactdeleteconfirm" class="btn btn-sm btn-danger">Yes</button>
+        <button type="button" data-id="" id="Contactdeleteconfirm" class="normal-btn">Yes</button>
       </div>
     </div>
   </div>

@@ -4,7 +4,7 @@
 <div id="maindiv" class="container d-none">
     <div class="row">
     <div class="col-md-12 p-5">
-<button id="AddNewBtnID" class="btn my-4 btn-sm btn-danger">Add New Service</button>
+<button id="AddNewBtnID" class="normal-btn">Add New Service</button>
 
     <table id="serviceTableID" class="table table-striped table-bordered" cellspacing="0" width="100%">
       <thead>
@@ -63,10 +63,10 @@
           <h5 id="serviceDeleteID" class="d-none"></h5>
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-sm btn-primary" data-dismiss="modal">
+        <button type="button" class="normal-btn-cancel" data-dismiss="modal">
           No
         </button>
-        <button type="button" data-id="" id="servicedeleteconfirm" class="btn btn-sm btn-danger">Yes</button>
+        <button type="button" data-id="" id="servicedeleteconfirm" class="normal-btn">Yes</button>
       </div>
     </div>
   </div>
@@ -107,10 +107,10 @@
 
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-sm btn-primary" data-dismiss="modal">
+        <button type="button" class="normal-btn-cancel" data-dismiss="modal">
           Cancel
         </button>
-        <button type="button" data-id="" id="serviceEditconfirm" class="btn btn-sm btn-danger">Update</button>
+        <button type="button" data-id="" id="serviceEditconfirm" class="normal-btn">Update</button>
       </div>
     </div>
   </div>
@@ -146,10 +146,10 @@
 
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-sm btn-primary" data-dismiss="modal">
+        <button type="button" class="normal-btn-cancel" data-dismiss="modal">
           Cancel
         </button>
-        <button type="button" data-id="" id="AddNewID" class="btn btn-sm btn-danger">Add New</button>
+        <button type="button" data-id="" id="AddNewID" class="normal-btn">Add New</button>
       </div>
     </div>
   </div>

@@ -4,7 +4,7 @@
 <div id="maindivCourse" class="container d-none">
     <div class="row">
     <div class="col-md-12 p-3">
-      <button id="AddNewCourseBtnID" class="btn my-4 btn-sm btn-danger">Add New Course</button>
+      <button id="AddNewCourseBtnID" class="normal-btn">Add New Course</button>
     <table id="CourseTableID" class="table table-striped table-bordered" cellspacing="0" width="100%">
       <thead>
         <tr>
@@ -77,8 +77,8 @@
        </div>
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-sm btn-primary" data-dismiss="modal">Cancel</button>
-        <button  id="CourseAddConfirmBtn" type="button" class="btn  btn-sm  btn-danger">Save</button>
+        <button type="button" class="normal-btn-cancel" data-dismiss="modal">Cancel</button>
+        <button  id="CourseAddConfirmBtn" type="button" class="normal-btn">Save</button>
       </div>
     </div>
   </div>
@@ -99,10 +99,10 @@
           <h5 id="CourseDeleteID" class="d-none"></h5>
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-sm btn-primary" data-dismiss="modal">
+        <button type="button" class="normal-btn-cancel" data-dismiss="modal">
           No
         </button>
-        <button type="button" data-id="" id="Coursedeleteconfirm" class="btn btn-sm btn-danger">Yes</button>
+        <button type="button" data-id="" id="Coursedeleteconfirm" class="normal-btn">Yes</button>
       </div>
     </div>
   </div>
@@ -142,8 +142,8 @@ aria-hidden="true">
 
     </div>
     <div class="modal-footer">
-      <button type="button" class="btn btn-sm btn-primary" data-dismiss="modal">Cancel</button>
-      <button  id="CourseEditConfirmBtn" type="button" class="btn  btn-sm  btn-danger">Save</button>
+      <button type="button" class="normal-btn-cancel" data-dismiss="modal">Cancel</button>
+      <button  id="CourseEditConfirmBtn" type="button" class="normal-btn">Save</button>
     </div>
   </div>
 </div>
